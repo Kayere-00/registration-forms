@@ -1,0 +1,121 @@
+
+body{
+    background-image: url("/fullStackDev/image/cat.avif");
+}
+
+h1, p {
+    text-align: center;
+
+}
+
+form{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    
+}
+#name-label{
+    font-size: 19px;
+    color: rgb(25, 18, 18);
+    display: block;
+    margin-right: 39%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#email-label{
+
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-right: 38%;
+    margin-bottom: 5px;
+}
+
+#number-label{
+    
+    font-size: 19px;
+    color: rgb(15, 7, 7);
+    display: block;
+    margin-right: 40%;
+    margin-bottom: 5px;
+}
+
+#name, #email, #number{
+    margin-left: 7%;
+    margin-bottom: 15px;
+   width: 50%;
+   height: 2em;
+   border-radius: 1px 1px 1px solid white;
+}
+
+#dropdown{
+    
+    display: block;
+    margin-left: 28%;
+    width: 51%;
+    height: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rad{
+    display: flex;
+    margin-left: 29% ;
+}
+
+input[type="radio"]{
+    display: block;
+}
+.role{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 7%;
+    text-align: unset;
+    margin-bottom: 5px;
+    
+}
+.recommend{
+
+    font-size: large;
+    font-weight: bold;
+    margin-right: 4%;
+    text-align: unset;
+    margin-bottom: 10px;
+   
+}
+
+fieldset{
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-right: 3%;
+    border: none;
+}
+legend{
+ 
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+textarea{
+
+    display: flex;
+    margin-left: 29%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-width: 300px;
+    min-height: 100px;
+}
+
+button{
+    text-align: center;
+    margin-left: 8%;
+    width: 50%;
+    height: 3em;
+    background-color: rgb(87, 169, 87);
+    border: 1px solid white;
+    border-radius: 4px 4px 4px solid rgb(70, 75, 82) ;
+}
+
+#comment{
+    margin-right: 22%;
+}
